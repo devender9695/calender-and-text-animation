@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Text Animation</title>
+<head>
+    
+  <style>
+
+
+h1{
+
+    text-align: center;
+    color: lightcoral;
+    font-size: 50px;
+}
+
+
+ .a ,.b{
+ color: darkgray;
+
+   }
+  
+   .box1{
+   border: 2px solid darkorange;
+   width: 170px;
+   height: 200px;
+   margin: 50px;
+   padding-left: 25px;
+   margin: 50px;
+   font-size: 30px;
+   text-align: center;
+   float: left;  
+   }
+
+   #highlight1{
+
+    background-color: lightblue;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+   }
+
+   @keyframes example{
+
+    from{background-color: lightblue;}
+    to{background-color:yellow;}
+   }
+
+
+  
+
+    .box2{
+   border: 2px solid rgb(85, 14, 239);
+   width: 170px;
+   height: 200px;
+   margin: 50px;
+   padding-left: 25px;
+   margin: 50px;
+   font-size: 30px; 
+   text-align: center;
+   float: left;
+   }
+
+   #highlight2{
+
+    background-color: darkmagenta;
+    animation-name: example1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+   }
+
+   @keyframes example1{
+
+    from{background-color: darkmagenta;}
+    to{background-color: rgb(80, 255, 156);}
+   }
+ 
+
+      .box3{
+   border: 2px solid black;
+   width:200px;
+   height: 200px;
+   margin: 50px;
+   padding-left: 25px;
+   margin: 50px;
+   font-size: 30px; 
+   text-align: center;
+   float: left;
+   }
+
+ #highlight3{
+
+    background-color: greenyellow;
+    animation: example2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+ }
+
+ @keyframes example2{
+
+    from{background-color: greenyellow;}
+    to{background-color: dodgerblue;}
+ }
+
+   
+
+  </style>
+</head>
+<body>
+
+    <h1>TEXT-ANIMATION</h1>
+    <div class="box1">
+
+        <p class="a">MAKE</p>
+        <div id="highlight1">LIFESTYLE</div>
+        <p class="b">AWESOME!</p>
+        
+    </div>
+
+     <div class="box2">
+
+        <p class="a">MAKE</p>
+        <div id="highlight2">WORK</div>
+        <p class="b">AWESOME!</p>
+        
+    </div>
+
+     <div class="box3">
+
+        <p class="a">MAKE</p>
+        <div id="highlight3">EVERYTHING</div>
+        <p class="b">AWESOME!</p>
+        
+    </div>
+</body>
+</html>
